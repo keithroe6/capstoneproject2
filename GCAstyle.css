@@ -20,12 +20,13 @@
     background-color: var(--bg-color);
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     margin: 1rem;
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   #topboxes {
     display: flex;
     margin: 1rem;
+    width: auto;
   }
 
    #topboxes #officeuse {
@@ -37,7 +38,7 @@
  
   @media (max-width: 1400px) {
     #topboxes #officeuse h2 {
-    font-size: 18px;
+    font-size: 14px;
     }
   }
 
@@ -48,13 +49,13 @@
   }
 
   #centerspace {
-    width: 2%;
+    width: auto;
   }
 
   #GCAinfo {
     border: 5px solid var(--navy);
     display: flex;
-    width: 49%;
+    width: 100%;
   }
 
   #GCAinfo div h2 img {
